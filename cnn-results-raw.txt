@@ -1,0 +1,99 @@
+CNN Networks
+
+MLP:
+ethbtc train PnL: 50.74080350532198
+ethbtc val PnL: 30.961449502658716
+btcusdt train PnL: 64.98922201601304
+btcusdt val PnL: 44.050112266143636
+ltcbtc train PnL: 53.98943928220966
+ltcbtc val PnL: 46.70570289760364
+
+CNN, 2-2-2 all kernel 5:
+ethbtc train PnL: 56.50004022572957
+ethbtc val PnL: 43.68851039204097
+ltcbtc train PnL: 59.65736496541835
+ltcbtc val PnL: 59.02135155509694
+btcusdt train PnL: 69.25236051282161
+btcusdt val PnL: 56.431781589743615
+
+Another try:
+ethbtc train PnL: 53.683732454409835
+ethbtc val PnL: 43.081805535854954
+ltcbtc train PnL: 55.766620419012625
+ltcbtc val PnL: 56.458321134304526
+btcusdt train PnL: 66.34202716733071
+btcusdt val PnL: 54.68212232482165
+
+CNN, 2-2-2 all kernel 5, no pooling:
+ethbtc train PnL: 50.972596414543766
+ethbtc val PnL: 40.221856062861214
+ltcbtc train PnL: 52.05696414376142
+ltcbtc val PnL: 52.77203611102806
+btcusdt train PnL: 62.3372403329084
+btcusdt val PnL: 52.13404122746642
+
+
+VGG Like 2, kernel 5:
+ethbtc train PnL: 47.80325668126342
+ethbtc val PnL: 37.66628286200132
+ltcbtc train PnL: 49.604402363485214
+ltcbtc val PnL: 50.59071665470426
+btcusdt train PnL: 57.37030697727182
+btcusdt val PnL: 47.289438951200665
+
+VGG Like 4, kernel 5:
+ethbtc train PnL: 46.52602119643905
+ethbtc val PnL: 35.72798629001623
+ltcbtc train PnL: 47.672062232004635
+ltcbtc val PnL: 48.54137310643889
+btcusdt train PnL: 57.149922539102214
+btcusdt val PnL: 46.53608943461155
+
+(Another):
+ethbtc train PnL: 49.35541005603565
+ethbtc val PnL: 37.010071484946366
+ltcbtc train PnL: 50.066538417433776
+ltcbtc val PnL: 49.75652624181039
+btcusdt train PnL: 61.406543992100154
+btcusdt val PnL: 47.663284015165246
+
+CNN 20 epochs - VGG Like 4, kernel 2:
+ethbtc train PnL: 45.61189865474906
+ethbtc val PnL: 33.957867634113995
+ltcbtc train PnL: 48.7320292561955
+ltcbtc val PnL: 46.84751685409711
+btcusdt train PnL: 56.54538411485788
+btcusdt val PnL: 43.6852125019345
+
+CNN 20 epochs - VGG Like 4:
+ethbtc train PnL: 45.507609907810874
+ethbtc val PnL: 32.608150320045866
+ltcbtc train PnL: 46.359849798066904
+ltcbtc val PnL: 45.97776241343786
+btcusdt train PnL: 56.20976729894822
+btcusdt val PnL: 43.29141380931692
+
+
+CNN 20 epochs - VGG Like 8:
+ethbtc train PnL: 43.22874172373246
+ethbtc val PnL: 33.35858112078459
+ltcbtc train PnL: 44.145711065060304
+ltcbtc val PnL: 45.98872645468028
+btcusdt train PnL: 49.93692752004469
+btcusdt val PnL: 43.13540440643948
+
+CNN 20 epochs - VGG Like 16:
+ethbtc train PnL: 41.77633147005493
+ethbtc val PnL: 29.26424021333917
+ltcbtc train PnL: 43.40446771900517
+ltcbtc val PnL: 43.571613651982915
+btcusdt train PnL: 49.08747365183605
+btcusdt val PnL: 39.60151060356883
+
+CNN 20 epochs - VGG Like 32:
+ethbtc train PnL: 38.46874919951313
+ethbtc val PnL: 29.145008291866525
+ltcbtc train PnL: 40.99481735578417
+ltcbtc val PnL: 43.60254332074062
+btcusdt train PnL: 46.2339877403772
+btcusdt val PnL: 38.71446613709668

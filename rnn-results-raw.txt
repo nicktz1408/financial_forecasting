@@ -1,0 +1,146 @@
+RNN Network
+
+MLP:
+ethbtc train PnL: 50.74080350532198
+ethbtc val PnL: 30.961449502658716
+btcusdt train PnL: 64.98922201601304
+btcusdt val PnL: 44.050112266143636
+ltcbtc train PnL: 53.98943928220966
+ltcbtc val PnL: 46.70570289760364
+
+RNN 4 layers, 8 hidden: (ignore it, used 4 output neurons)
+btcusdt train PnL: 71.53379605320607
+btcusdt val PnL: 53.75120322689455
+ethbtc train PnL: 57.043259974821105
+ethbtc val PnL: 39.58427268693352
+ltcbtc train PnL: 60.29978420898408
+ltcbtc val PnL: 56.274163540123425
+
+RNN 4 layers, 10 hidden, 0 dropout:
+btcusdt train PnL: 66.3469563329327
+btcusdt val PnL: 53.53708897601071
+ethbtc train PnL: 54.86441527026693
+ethbtc val PnL: 41.092738054452376
+ltcbtc train PnL: 56.66996282656556
+ltcbtc val PnL: 54.39720048343024
+
+RNN 3 layers, 5 hidden:
+btcusdt train PnL: 69.91273587842961
+btcusdt val PnL: 51.92999656046138
+ethbtc train PnL: 55.60743737594391
+ethbtc val PnL: 38.38707441483923
+ltcbtc train PnL: 59.13695368921127
+ltcbtc val PnL: 53.49990245820818
+
+RNN 3 layers, 10 hidden:
+btcusdt train PnL: 63.413858361703475
+btcusdt val PnL: 45.734885229669
+ethbtc train PnL: 51.87726179630684
+ethbtc val PnL: 33.7263941304408
+ltcbtc train PnL: 54.05689393550557
+ltcbtc val PnL: 49.82671228075585
+
+RNN 2 layers, 5 hidden:
+btcusdt train PnL: 67.18319199531074
+btcusdt val PnL: 49.78863530618608
+ethbtc train PnL: 54.126565916557304
+ethbtc val PnL: 36.37747842538115
+ltcbtc train PnL: 57.4404661163482
+ltcbtc val PnL: 53.157662661213536
+
+RNN 2 layers, 10 hidden:
+btcusdt train PnL: 69.44948667626132
+btcusdt val PnL: 49.06272767079575
+ethbtc train PnL: 55.09890147298007
+ethbtc val PnL: 34.50868991346289
+ltcbtc train PnL: 59.1240664192589
+ltcbtc val PnL: 51.31894293839416
+
+GUR 4 layers, 7 hidden:
+btcusdt train PnL: 66.19220492607934
+btcusdt val PnL: 46.67239087206783
+ethbtc train PnL: 52.033034343257626
+ethbtc val PnL: 34.902917586236214
+ltcbtc train PnL: 55.01909558799245
+ltcbtc val PnL: 48.87003830745452
+
+GRU 3 layers, 5 hidden:
+btcusdt train PnL: 67.79922940939834
+btcusdt val PnL: 49.33285263067641
+ethbtc train PnL: 54.65638188262327
+ethbtc val PnL: 37.01985066707056
+ltcbtc train PnL: 57.06648005822258
+ltcbtc val PnL: 51.92842400436317
+
+GRU 3 layers, 10 hidden:
+btcusdt train PnL: 52.25215736857695
+btcusdt val PnL: 45.68917686228357
+ethbtc train PnL: 44.47062097332528
+ethbtc val PnL: 35.28615053149038
+ltcbtc train PnL: 45.571841214165666
+ltcbtc val PnL: 49.55622904961335
+
+GRU 2 layers, 5 hidden:
+btcusdt train PnL: 57.311809239130824
+btcusdt val PnL: 42.066957181301724
+ethbtc train PnL: 47.678205837104095
+ethbtc val PnL: 31.938845299830113
+ltcbtc train PnL: 51.03283154447713
+ltcbtc val PnL: 45.733275978955625
+
+LSTM, 1 layer, 5 hidden:
+ethbtc train PnL: 46.92008342491184
+ethbtc val PnL: 31.195281815376795
+btcusdt train PnL: 60.42898501496536
+btcusdt val PnL: 42.14921967711693
+ltcbtc train PnL: 50.24404980127759
+ltcbtc val PnL: 44.88554940804895
+
+LSTM, 3 layers, 5 hidden:
+ethbtc train PnL: 48.506126891146565
+ethbtc val PnL: 32.34165804937088
+btcusdt train PnL: 59.08344970092547
+btcusdt val PnL: 42.89577825347008
+ltcbtc train PnL: 51.8578263456049
+ltcbtc val PnL: 46.58692823702482
+
+LSTM, 3 layers, 5 hidden, no dropout:
+ethbtc train PnL: 49.47559269110507
+ethbtc val PnL: 32.21107065478744
+btcusdt train PnL: 60.97954834131334
+btcusdt val PnL: 43.17505247341366
+ltcbtc train PnL: 52.468549734607464
+ltcbtc val PnL: 46.66432009260507
+
+LSTM, 3 layers, 10 hidden:
+ethbtc train PnL: 48.506126891146565
+ethbtc val PnL: 32.34165804937088
+btcusdt train PnL: 59.08344970092547
+btcusdt val PnL: 42.89577825347008
+ltcbtc train PnL: 51.8578263456049
+ltcbtc val PnL: 46.58692823702482
+
+LSTM, 2 layers, 5 hidden:
+ethbtc train PnL: 47.79623089582293
+ethbtc val PnL: 32.71945402635356
+btcusdt train PnL: 57.887703521992165
+btcusdt val PnL: 43.424696730068945
+ltcbtc train PnL: 51.115656608811385
+ltcbtc val PnL: 46.18866750523483
+
+LSTM, 2 layers, 10 hidden:
+ethbtc train PnL: 46.04278151772108
+ethbtc val PnL: 31.569386085665776
+btcusdt train PnL: 55.18323047793393
+btcusdt val PnL: 41.02366888160328
+ltcbtc train PnL: 48.38783362143661
+ltcbtc val PnL: 46.07611455582517
+
+LSTM, 2 layers, 15 hidden:
+ethbtc train PnL: 43.114994991988176
+ethbtc val PnL: 31.193624701592753
+btcusdt train PnL: 52.30748627917863
+btcusdt val PnL: 40.378846493471045
+ltcbtc train PnL: 45.96973243069883
+ltcbtc val PnL: 43.73764417593723
+
